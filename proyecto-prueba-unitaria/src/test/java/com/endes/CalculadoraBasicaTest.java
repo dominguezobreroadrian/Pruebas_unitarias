@@ -23,7 +23,7 @@ class CalculadoraBasicaTest {
 
 	@BeforeEach
 	void setUp() throws Exception {
-		System.out.println("setup(-> beforeEach)");
+		System.out.println("setup(-> beforeEach) antes de cada @Test");
 	}
 
 	@AfterEach
