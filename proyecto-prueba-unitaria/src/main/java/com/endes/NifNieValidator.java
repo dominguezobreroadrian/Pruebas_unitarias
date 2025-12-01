@@ -59,16 +59,4 @@ public class NifNieValidator {
 	        return resultado;
 	        
 	    }
-
-	    public static boolean validarNifNie(String numero) {
-
-	        if (numero.length() == 9) {
-	            if (Character.isDigit(numero.charAt(0))) {
-	                return validarNif(numero);
-	            } else {
-	                return validarNie(numero);
-	            }
-	        }
-	        return false;
-	    }
 }

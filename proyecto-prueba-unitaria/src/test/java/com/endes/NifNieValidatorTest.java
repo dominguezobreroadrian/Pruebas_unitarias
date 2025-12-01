@@ -44,5 +44,4 @@ class NifNieValidatorTest {
 		
 		assertEquals(resultadoEsperado, resultado, "Nie incorrecto");
 	}
-
 }
