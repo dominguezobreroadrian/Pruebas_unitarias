@@ -34,7 +34,7 @@ class CalculadoraBasicaTest {
 	@DisplayName("Prueba de suma de la calculadora")
 	void testSuma() {
 		int resultadoEsperado = 3;
-		int resultado = calculadora.sumar(1, 2);
+		int resultado = CalculadoraBasica.sumar(1, 2);
 		
 		assertEquals(resultadoEsperado, resultado, "La suma no es correcta");
 	}
@@ -43,7 +43,7 @@ class CalculadoraBasicaTest {
 	@DisplayName("Prueba de resta de la calculadora")
 	void testResta() {
 		int resultadoEsperado = 8;
-		int resultado = calculadora.restar(10, 2);
+		int resultado = CalculadoraBasica.restar(10, 2);
 		
 		assertEquals(resultadoEsperado, resultado, "La resta no es correcta");
 	}
@@ -52,7 +52,7 @@ class CalculadoraBasicaTest {
 	@DisplayName("Prueba de multiplicar de la calculadora")
 	void testMultiplicar() {
 		int resultadoEsperado = 100;
-		int resultado = calculadora.multiplicar(10, 10);
+		int resultado = CalculadoraBasica.multiplicar(10, 10);
 		
 		assertEquals(resultadoEsperado, resultado, "La multiplicacion no es correcta");
 	}
@@ -61,7 +61,7 @@ class CalculadoraBasicaTest {
 	@DisplayName("Prueba de dividir de la calculadora")
 	void testDividir() {
 		int resultadoEsperado = 67;
-		int resultado = calculadora.dividir(670, 10);
+		int resultado = CalculadoraBasica.dividir(670, 10);
 		
 		assertEquals(resultadoEsperado, resultado, "La división no es correcta");
 	}
