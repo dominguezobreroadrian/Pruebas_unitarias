@@ -43,7 +43,7 @@ class CalculadoraBasicaTest {
 	@DisplayName("Prueba de resta de la calculadora")
 	void testResta() {
 		int resultadoEsperado = 8;
-		int resultado = calculadora.restar(7, 10);
+		int resultado = calculadora.restar(10, 2);
 		
 		assertEquals(resultadoEsperado, resultado, "La resta no es correcta");
 	}
